@@ -21,6 +21,17 @@
 .moto{
     /* display: inline; */
     width: 35%;
+    height: auto;   
+}
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+.carousel-slide {
+    display: none;
+  }
+.carousel-slide img {
+    width: 100%;
     height: auto;
-   
 }
