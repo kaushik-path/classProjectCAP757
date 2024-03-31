@@ -1,5 +1,6 @@
 let slideIndex = 0;
-const slides = document.getElementsByClassName("carousel-slide");
+const newLocal = "carousel-slide";
+const slides = document.getElementsByClassName(newLocal);
 
 function showSlides() {
   for (let i = 0; i < slides.length; i++) {
